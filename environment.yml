@@ -3,8 +3,8 @@
 # It installs from source using github master branch. If you get a pip error coming from feedparser.py, refer to the hack mentioned here : `https://bugs.python.org/msg301789`
 name: pygenometracks
 channels:
-   - bioconda
    - defaults
+   - bioconda
 dependencies:
     - python >=3.7
     - numpy >=1.16
